@@ -24,4 +24,4 @@ if np.allclose(A @ solution, b):
     print("공통해가 존재합니다.")
     print(f"공통해: ({x1:.0f}, {x2:.0f})")
 else:
-    print("세 방정식을 동시에 만족하는 정확한 공통해가 업습니다.")
+    print("세 방정식을 동시에 만족하는 정확한 공통해가 없습니다.")
